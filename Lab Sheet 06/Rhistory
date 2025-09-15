@@ -1,0 +1,37 @@
+setwd("C:\\Users\\it24101240\\Desktop\\Lab 06")
+dbinom(40,44,0.92)
+pbinom(35,44,0.92,lower.tail = TRUE)
+#probability that atleast 38 childeren are cured
+1- pbinom(37,44,0.92,lower.tail = TRUE)
+pbinom(37,44,0.92, lower.tail = FALSE)
+#probabilty that between 40 and 42(both inclusive) children are cured
+pbinom(42,44,0.92,lower.tail = TRUE)- pbinom(39,44,0.92,lower.tail = TRUE)
+#number of babies born in the hospital given day
+#poisson disrtribution
+dpois(6,5)
+#probability of more than 6 babies be born in this hospital tomorrow
+ppois(6,5,lower.tail = FALSE)
+setwd("C:\\Users\\it24101240\\Desktop\\IT24101240-Lab 06")
+setwd("C:\\Users\\it24101240\\Desktop\\IT24101240-Lab 06")
+dbinom(40,44,0.92)
+pbinom(35,44,0.92,lower.tail = TRUE)
+#probability that atleast 38 childeren are cured
+1 - pbinom(37,44,0.92,lower.tail = TRUE)
+pbinom(37,44,0.92, lower.tail = FALSE)
+#probabilty that between 40 and 42(both inclusive) children are cured
+pbinom(42,44,0.92,lower.tail = TRUE)- pbinom(39,44,0.92,lower.tail = TRUE)
+#number of babies born in the hospital given day
+#poisson disrtribution
+#probability that 6 babies will be born in this hospital tomorrow?
+dpois(6,5)
+#probability of more than 6 babies be born in this hospital tomorrow
+ppois(6,5,lower.tail = FALSE)
+setwd("C:\\Users\\it24101240\\Desktop\\IT24101240-Lab 06")
+getwd()
+#ii)
+pbinom(46, 50, 0.85, lower.tail = FALSE)
+#2
+#	i) Number of customer calls received in an hour
+# ii) Poisson distribution
+#iii
+dpois(15, 12)
